@@ -1,1 +1,13 @@
+# Project 4 — CI/CD Pipeline
 
+## Objective
+Automate build and deployment workflows using GitHub Actions.
+
+## Tools Used
+- GitHub Actions
+- Docker
+- AWS
+- CI/CD
+
+## Status
+Planned
