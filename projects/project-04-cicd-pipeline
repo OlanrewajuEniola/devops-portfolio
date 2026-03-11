@@ -9,5 +9,12 @@ Automate build and deployment workflows using GitHub Actions.
 - AWS
 - CI/CD
 
+## Planned Deliverables
+- Dockerfile
+- Running container on EC2
+- Public access to application
+- Project documentation
+- Architecture diagram
+
 ## Status
 Planned
