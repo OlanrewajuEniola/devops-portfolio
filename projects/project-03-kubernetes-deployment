@@ -10,5 +10,12 @@ Deploy a containerized application to Kubernetes.
 - Services
 - Deployments
 
+## Planned Deliverables
+- Dockerfile
+- Running container on EC2
+- Public access to application
+- Project documentation
+- Architecture diagram
+
 ## Status
 Planned
