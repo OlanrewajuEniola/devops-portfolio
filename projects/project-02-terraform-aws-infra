@@ -1,1 +1,14 @@
+# Project 2 — Terraform AWS Infrastructure
 
+## Objective
+Provision AWS infrastructure using Terraform.
+
+## Tools Used
+- Terraform
+- AWS
+- EC2
+- S3
+- DynamoDB
+
+## Status
+Planned
