@@ -22,14 +22,14 @@ project-01-dockerized-app-ec2/
 └── .gitignore
 
 ## Deployment Workflow
-Created a fresh Ubuntu EC2 instance in AWS.
-Connected to the server using SSH and a .pem key.
-Installed Docker on the EC2 instance.
-Cloned the GitHub repository onto the server.
-Built the Docker image from the project Dockerfile.
-Ran the container and mapped port 80 on the host to port 80 in the container.
-Updated the EC2 security group to allow inbound HTTP traffic on port 80 after the application was not initially reachable.
-Accessed the application in the browser using the EC2 public IP.
+1. Created a fresh Ubuntu EC2 instance in AWS.
+2. Connected to the server using SSH and a .pem key.
+3. Installed Docker on the EC2 instance.
+4. Cloned the GitHub repository onto the server.
+5. Built the Docker image from the project Dockerfile.
+6. Ran the container and mapped port 80 on the host to port 80 in the container.
+7. Updated the EC2 security group to allow inbound HTTP traffic on port 80 after the application was not initially reachable.
+8. Accessed the application in the browser using the EC2 public IP.
 
 ## Docker Commands Used
 docker build -t project-1a-static-site .
