@@ -1,28 +1,21 @@
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Environment files
+.env
+
+# SSH keys
+*.pem
+*.key
+
 # Terraform
 .terraform/
 *.tfstate
 *.tfstate.*
-crash.log
-override.tf
-override.tf.json
-*_override.tf
-*_override.tf.json
 
-# AWS
-.aws/
-
-# SSH Keys
-*.pem
-*.key
-
-# OS / Editor
-.DS_Store
+# Editor files
 .vscode/
 .idea/
-
-# Python
-__pycache__/
-*.pyc
-
-# Node
-node_modules/
