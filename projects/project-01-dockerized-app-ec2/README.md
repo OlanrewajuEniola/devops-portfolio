@@ -49,5 +49,16 @@ How to build a Docker image from a Dockerfile
 How to run a container and expose it with port mapping
 How Docker port mapping and AWS security groups work together to make an application reachable
 
+## Part 1B — Update, Rebuild, and Re-Deploy
+
+As a follow-up exercise, the application content was updated locally on the Mac, pushed to GitHub, pulled onto the EC2 instance, rebuilt into a new Docker image, and redeployed by replacing the old running container.
+
+### What this reinforced
+- Source code changes do not automatically update a running container
+- The EC2 server must pull the latest code
+- The Docker image must be rebuilt after application changes
+- The old container must be replaced with a new one based on the rebuilt image
+- Verification in the browser confirms the redeployment was successful
+
 ## Status
 Completed
