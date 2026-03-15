@@ -60,5 +60,22 @@ As a follow-up exercise, the application content was updated locally on the Mac,
 - The old container must be replaced with a new one based on the rebuilt image
 - Verification in the browser confirms the redeployment was successful
 
+## Part 1C — Inspect and Manage Container Lifecycle
+
+This exercise focused on understanding the difference between Docker images and containers, and how containers behave across running, stopped, and removed states.
+
+### Commands Practised
+```bash
+docker ps
+docker ps -a
+docker logs project-1a-container
+docker exec -it project-1a-container sh
+docker stop project-1a-container
+docker start project-1a-container
+docker rm project-1a-container
+docker images
+docker run -d -p 80:80 --name project-1a-container project-1a-static-site
+
+
 ## Status
 Completed
