@@ -76,6 +76,18 @@ docker rm project-1a-container
 docker images
 docker run -d -p 80:80 --name project-1a-container project-1a-static-site
 
+## Part 1D — Image Tagging and Cleanup Awareness
+
+This exercise focused on understanding Docker image tags, how multiple tags can point to the same image, and how to clean up dangling images safely.
+
+### Commands Practised
+```bash
+docker images
+docker build -t project-1a-static-site:v1 .
+docker build -t project-1a-static-site:v2 .
+docker run -d -p 80:80 --name project-1a-container project-1a-static-site:v2
+docker image prune
+
 
 ## Status
 Completed
