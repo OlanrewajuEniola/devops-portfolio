@@ -15,3 +15,9 @@ variable "instance_name" {
   type        = string
   default     = "terraform-project-02-instance"
 }
+
+variable "key_name" {
+  description = "Existing AWS EC2 key pair name"
+  type        = string
+  default     = "docker-project-key"
+}
