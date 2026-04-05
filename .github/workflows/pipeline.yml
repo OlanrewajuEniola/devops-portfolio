@@ -1,0 +1,36 @@
+name: Project 04 CI Pipeline
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build-and-validate:
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: projects/project-04-cicd-pipeline
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Show project files
+        run: |
+          pwd
+          ls -la
+          ls -la app
+
+      - name: Verify important files exist
+        run: |
+          test -f Dockerfile
+          test -f README.md
+          test -f app/index.html
+
+      - name: Build Docker image
+        run: docker build -t project-04-cicd-pipeline .
