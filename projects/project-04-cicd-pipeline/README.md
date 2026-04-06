@@ -1,18 +1,19 @@
 # Project 04 — CI/CD Pipeline
 
 ## Objective
-Build a GitHub Actions CI pipeline for a containerized application.
+Build and improve a GitHub Actions CI pipeline for a containerised application.
 
 ## Tools Used
 - GitHub
 - GitHub Actions
 - Docker
+- Nginx
 
 ## Project Scope
-- Trigger pipeline on push
-- Check repository code
+- Trigger pipeline on push and pull request
 - Validate required project files
-- Build Docker image
+- Build Docker image automatically
+- Improve pipeline readability and validation output
 - Prepare foundation for automated delivery
 
 ## Workflow Location
@@ -23,13 +24,23 @@ Build a GitHub Actions CI pipeline for a containerized application.
 - `projects/project-04-cicd-pipeline/README.md`
 - `projects/project-04-cicd-pipeline/app/index.html`
 
-## Current Status
-- Project structure created
-- GitHub Actions workflow created
-- Pipeline successfully triggered on push to `main`
-- Docker image successfully built in GitHub Actions
+## What the Pipeline Does
+1. Checks out the repository
+2. Enters the Project 04 working directory
+3. Shows project and app files
+4. Verifies required files exist
+5. Checks Docker availability
+6. Builds the Docker image with tag `project-04-cicd-pipeline:v1`
+
+## Outcomes Achieved
+- Created a working GitHub Actions workflow at repo root
+- Configured the workflow to target the Project 04 directory correctly
+- Validated required files in CI
+- Built a Docker image automatically in GitHub Actions
+- Improved the workflow with clearer output and Docker version checks
+- Confirmed successful pipeline runs after both the initial and improved workflow versions
 
 ## Notes
-- The workflow must live at repo root under `.github/workflows/`
+- GitHub Actions workflows must live under `.github/workflows/` at repo root
 - The workflow uses `working-directory: projects/project-04-cicd-pipeline`
-- This is the CI foundation stage of Project 04
+- This project currently represents the CI stage of the broader CI/CD flow
