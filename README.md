@@ -1,3 +1,9 @@
+# DevOps Portfolio
+
+This repository documents my hands-on DevOps and Cloud engineering projects as I transition from IT Support / IT Operations into Cloud, Infrastructure, Platform Support, and Junior DevOps roles.
+
+The projects below demonstrate practical experience with Linux, AWS EC2, Docker, Terraform, Kubernetes/K3s, GitHub Actions, CI/CD automation, infrastructure provisioning, containerisation, and deployment workflows.
+
 ## Featured DevOps Projects
 
 | Project                                                                                          | Tools                               | Description                                                                                                                                                           |
