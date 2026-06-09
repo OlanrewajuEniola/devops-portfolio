@@ -1,29 +1,9 @@
-# DevOps Portfolio
+## Featured DevOps Projects
 
-This repository documents my hands-on DevOps projects as I transition from IT Support into DevOps Engineering.
+| Project                                                                                          | Tools                               | Description                                                                                                                                                           |
+| ------------------------------------------------------------------------------------------------ | ----------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Project 01 — Dockerized App on EC2](./projects/project-01-dockerized-app-ec2/README.md)         | Docker, AWS EC2, Linux              | Built and deployed a containerised application on an Ubuntu EC2 instance.                                                                                             |
+| [Project 02 — Terraform AWS Infrastructure](./projects/project-02-terraform-aws-infra/README.md) | Terraform, AWS EC2, Security Groups | Provisioned repeatable AWS infrastructure using Terraform.                                                                                                            |
+| [Project 03 — Kubernetes Deployment](./projects/project-03-kubernetes-deployment/README.md)      | Kubernetes, K3s, YAML               | Deployed a containerised application using Kubernetes Deployments, Services, and configuration management.                                                            |
+| [Project 04 — CI/CD Pipeline](./projects/project-04-cicd-pipeline/README.md)                     | GitHub Actions, Docker, Docker Hub  | Built a CI/CD pipeline to validate project files, build a Docker image, authenticate securely with Docker Hub using GitHub Secrets, and push the image to Docker Hub. |
 
-## Current Focus
-- Linux
-- Docker
-- AWS
-- Terraform
-- Kubernetes
-- CI/CD
-- Infrastructure as Code
-
-## Projects
-
-### Project 1 — Dockerized App on EC2
-A simple application containerized with Docker, pushed to a container registry, and deployed on AWS EC2.
-
-### Project 2 — Terraform AWS Infrastructure
-Infrastructure provisioned on AWS using Terraform, including EC2, Security Groups, and remote state management.
-
-### Project 3 — Kubernetes Deployment
-Deploying a containerized application to Kubernetes using Deployments, Services, and configuration management.
-
-### Project 4 — CI/CD Pipeline
-Automating build and deployment workflows using GitHub Actions.
-
-## Goal
-To build practical, end-to-end DevOps projects that demonstrate real infrastructure automation, containerization, deployment, and troubleshooting skills.
